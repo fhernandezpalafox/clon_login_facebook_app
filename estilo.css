@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edf0f5;
+}
+
+.principal {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 980px;
+}
+
+.imgfacebook img {
+    height: 106px;
+    width: -28px;
+    text-align: left;
+}
+
+.imgfacebook h2 {
+    font-size: 24px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding:  0 0 20px;
+    text-align: left;
+}
+
+.contenido_formulario {
+    align-items: center;
+    background-color: #FFF;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0  2px 4px rgb(0 0 0/ 10%), 0 8px 16px rgb(0 0 0/ 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.caja_texto{
+    background: #FFF repeat-x;
+    border: 1px  solid #dddfe2;
+    color: #1d2129;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+.contenedor_caja_texto {
+    padding: 6px 0;
+}
+
+.boton_iniciar_sesion {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color:#fff;
+}
+
+.contenedor_boton{
+    padding: 6px;
+}
+
+.link_olvidaste{
+    color:#1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contenedor_link{
+    margin-top: 16px;
+}
+
+.separador{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.link_crea_una_cuenta {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.contenedor_crea_pagina {
+     margin-top: 10px;
+     border-top: none;
+     color:#1c1e21;
+     font-size: 14px;
+     font-weight: normal;
+     padding-top: 0;
+}
+
+.contenedor_crea_pagina a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+@media only screen and (max-width:900px) {
+    
+    .principal {
+        flex-direction: column;
+        width: 500px;
+        align-items: center;
+    }
+    .imgfacebook{
+        text-align: center;
+    }
+    .imgfacebook h2 {
+        text-align: center;
+    }
+
+}
+
